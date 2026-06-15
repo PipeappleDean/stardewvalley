@@ -1,0 +1,39 @@
+﻿{
+    // 工具升级服务
+    "Delivery.Clint.UpgradeLetter": "嗯，你的工具升级完成。^我给你直接寄回来了...省得你大老远跑一趟。^小心使用。^   ——克林特",
+    "Delivery.Clint.UpgradeLetter.Title": "克林特工具快递服务",
+    "Shipment.Clint.UpgradeLetter": "嗯，你好...     ^小镇开通了新快递服务，现在你可以通过邮件寄工具来升级了。别忘了附上钱和金属锭。^我一次只能处理一件工具，别同时寄多件过来。^   ——铁匠克林特",
+    "Shipment.Clint.UpgradeLetter.Title": "克林特工具升级服务",
+    "Shipment.Clint.UpgradeLetter.ToolSent": "{{Tool}}已送出升级。",
+    "Shipment.Clint.UpgradeLetter.NoBars": "没有足够的金属锭来升级{{Tool}}。",
+    "Shipment.Clint.UpgradeLetter.NoMoney": "没有足够的钱来升级{{Tool}}。",
+    "Shipment.Clint.UpgradeLetter.Question": "要寄送工具升级吗？",
+    "Shipment.Clint.UpgradeLetter.Yes": "是",
+    "Shipment.Clint.UpgradeLetter.No": "否",
+    // 任务物品寄送服务
+    "Shipment.Quest.ItemDelivery.NotEnoughItems": "{{Npc}}需要{{Number}}个该物品。",
+    "Shipment.Quest.ItemDelivery.NoMoney": "没有足够的钱寄送任务物品。",
+    "Shipment.Quest.DeliveryQuestsLetter": "亲爱的@：^小镇开通了新快递服务，现在你可以直接把任务物品放进邮箱寄给委托人。^我们镇子虽小，但邮政服务可是顶尖的。^^  ——镇长刘易斯",
+    "Shipment.Quest.DeliveryQuestsLetter.Title": "鹈鹕镇快递服务",
+    // 冒险者公会找回服务
+    "Delivery.Marlon.RecoveryOfferLetter": "@：^如你所知，我提供有偿物品找回服务。^现在你不需要亲自来公会也能使用这项服务了。^有两种选择：^  随机找回一件遗失物品^  或者找回全部遗失物品(需支付对应费用)。^有意向的话直接回信即可。^   ——马龙^^附：即使选择邮寄服务，你仍可来公会指定找回某件物品。",
+    "Delivery.Marlon.RecoveryOfferLetter.Title": "马龙的物品找回服务",
+    "Delivery.Marlon.RecoveryOffer.Question": "选择哪种找回方式？",
+    "Delivery.Marlon.RecoveryOffer.One": "随机找回一件",
+    "Delivery.Marlon.RecoveryOffer.All": "找回全部物品",
+    "Delivery.Marlon.RecoveryOffer.None": "暂不需要",
+    "Delivery.Marlon.RecoveryOffer.AnswerSent": "已提交找回请求。",
+    "Delivery.Marlon.RecoveryRewardLetter": "@：^你现在可是冒险者公会的传奇人物了。^从今往后，我将为你提供免费的全部物品找回服务。^^   ——马龙",
+    "Delivery.Marlon.RecoveryRewardLetter.Title": "马龙的特别奖励",
+    "Delivery.Marlon.RecoveryLetter": "@：^根据你的要求，以下是找回的物品清单。^^下次可要小心了！^   ——马龙",
+    "Delivery.Marlon.RecoveryLetter.Title": "物品找回报告",
+    // 礼物寄送
+    "Shipment.Wizard.GiftShipmentLetter": "想知道为什么这里的邮政系统如此神奇吗？^镇长总爱吹嘘，但他根本不知道是谁在运送邮件。^根据我的奥术研究，这背后是祝尼魔在运作。^只要把礼物放进邮箱指定收件人，礼物就会像魔法般送达。^就当是和你分享更多关于祝尼魔的知识吧。^   ——法师拉斯莫迪斯",
+    "Shipment.Wizard.GiftShipmentLetter.Title": "法师的快递奥秘",
+    "Shipment.Gift.Previous": "<上一页",
+    "Shipment.Gift.Next": "下一页>",
+    "Shipment.Gift.None": "不寄给任何人",
+    "Shipment.Gift.Question": "将{{Gift}}寄给...",
+    "Shipment.Gift.GiftSent": "已将{{Gift}}寄给{{Npc}}",
+    "Shipment.Gift.NoMoney": "没有足够的钱寄送礼物。"
+}

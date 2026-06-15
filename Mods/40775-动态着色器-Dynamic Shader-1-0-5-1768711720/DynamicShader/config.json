@@ -1,0 +1,14 @@
+{
+  "EnableDynamicShadow": true,
+  "ShadowGradientStart": 1.0,
+  "ShadowGradientEnd": 0.05,
+  "ShadowEdgeBlurIntensity": 2.0,
+  "MaxShearAngle": 50.0,
+  "EnableSimpleShadow": false,
+  "EnableTiltShift": true,
+  "TiltShiftOutdoorOnly": true,
+  "FocusCenter": 0.5,
+  "TiltShiftBlur": 0.0,
+  "TopBlurRangeRatio": 0.55,
+  "BottomBlurRangeRatio": 0.6
+}

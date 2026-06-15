@@ -1,0 +1,31 @@
+{
+  "Name": "Immersive Farm 4",
+  "Author": "Sexynes, Zander(original author)",
+  "Version": "5.2.0",
+  "Description": "Content Patcher mod: Immersive Farm 4, updated by Sexynes",
+  "UniqueID": "Sexynes.CP.ImmersiveFarm4",
+  "UpdateKeys": [
+    "Nexus:7399"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "aedenthorn.CustomMounts",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "aedenthorn.DynamicMapTilesExtended",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "DLX.Bundles",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "MindMeltMax.MapBuildings",
+      "IsRequired": false
+    }
+  ]
+}

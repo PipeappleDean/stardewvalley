@@ -1,0 +1,55 @@
+﻿{
+  "GodraysEnabled": "{0}已启用光线",
+  "GodraysDisabled": "{0}已禁用光线",
+
+  "ToggleWeatherKey_Name": "光线天气开关快捷键",
+  "ToggleWeatherKey_Tooltip": "按下按键后，将开启/关闭当前天气的光线显示。",
+  
+  "ToggleLocationKey_Name": "光线开关快捷键",
+  "ToggleLocationKey_Tooltip": "按下此键可切换当前位置是否显示神圣光束",
+  
+  "RayScale_Name": "光线尺寸",
+  "RayScale_Tooltip": "调整光线的大小。数值越高，光线在屏幕所占比例越大，数值越低，光线在屏幕所占比例越小。同时，为避免白光过大时导致的刺眼问题，数值变大时会相应提高光线透明度。",
+  
+  "RayIntensity_Name": "光线密度",
+  "RayIntensity_Tooltip": "调整光线的密度和数量。数值越高，光线越密集、数量越多，数值越低，光线越稀疏、数量越少。",
+  
+  "RayAnimationSpeed_Name": "光线动画速度",
+  "RayAnimationSpeed_Tooltip": "调整光线在屏幕中的移动速度，数值越高，速度越快，数值越低，速度越慢。",
+  
+  "RayOpacityModifier_Name": "光线不透明度",
+  "RayOpacityModifier_Tooltip": "调整光线的整体不透明度，数值越高，光线越不透明，数值越低，光线越透明。",
+  
+  "FadeUnderClouds_Name": "云层光线渐隐",
+  "FadeUnderClouds_Tooltip": "启用后，当光线出现于云层阴影下时，产生渐隐消失效果。",
+
+  "OnlyWhenSunny_Name": "禁用不良天气的光线",
+  "OnlyWhenSunny_Tooltip": "启用后，恶劣天气将不会出现光线。对于模组添加的天气，该功能将根据模组天气是否具有恶劣天气标签判断是否启用。",
+
+  "WeatherSettings": "光线天气设置",
+  "Generic": "通用",
+  "Vanilla": "原版天气", // Vanilla as in "not modded"
+  "Modded": "模组天气",
+  
+  "GenericPageTooltip": "对晴天与未采用特殊设置的天气类型生效",
+  "VanillaPageTooltip": "对原版天气类型生效。", // Vanilla as in "not modded" i.e. Rain, Snow, Thunder, etc.
+  "ModdedPageTooltip": "对当前已加载的模组天气类型生效",
+  
+  "EnableRays_Name": "启用云隙光",
+  "EnableRays_Tooltip": "若禁用，该天气类型的云隙光功能将会失效，其相关选项将不会被加载。",
+  
+  "UseGenericSettings_Name": "使用通用设置",
+  "UseGenericSettings_Tooltip": "启用后，将会使用通用设置，且该选项下方的设置将不会被加载",
+  
+  "Weather_Sun": "晴天",
+  "Weather_Wind": "微风",
+  "Weather_Rain": "雨天",
+  "Weather_Storm": "雷雨",
+  "Weather_Snow": "下雪",
+  "Weather_GreenRain": "绿雨",
+  "Weather_Festival": "节日",
+  
+  "NoModdedWeathers": "没有模组天气类型被加载或启用。",
+
+
+}

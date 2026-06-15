@@ -1,0 +1,2627 @@
+{
+  "Format": "2.8.0",
+  "ConfigSchema": {
+    "StartingFurniture": {
+      "AllowValues": "Standard, Fishing, Foraging, Mining, Combat, Corners, Island, Ranching",
+      "Default": "Standard",
+      "Description": "The style of starting furniture you want your new IF4 save to have.",
+      "Section": "Farm Configuration"
+    },
+    "RedShedCoordsX": {
+      "Default": "162",
+      "Description": "Number. X coordinate for where you want the top left corner of the Red Shed to be placed.",
+      "AllowValues": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168",
+      "Section": "Farm Configuration"
+    },
+    "RedShedCoordsY": {
+      "Default": "10",
+      "Description": "Number. Y coordinate for where you want the top left corner of the Red Shed to be placed.",
+      "AllowValues": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146",
+      "Section": "Farm Configuration"
+    },
+    "DisableIF4FarmCave": {
+      "Description": "Set this to true if you want to use someone else's farm cave map.",
+      "AllowValues": "true, false",
+      "Default": false,
+      "Section": "Compatibility"
+    },
+    "UseIF4Greenhouse": {
+      "Description": "Set this to false if you want to use someone else's greenhouse map.",
+      "AllowValues": "true, false",
+      "Default": true,
+      "Section": "Compatibility"
+    },
+    "UseIF4WorldMap": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Set this to false if you do not want to use IF4's world map.",
+      "Section": "Compatibility"
+    },
+    "UseIF4GreenhouseExterior": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Set this to false if you do not want to use IF4's eemie-Victorian exterior greenhouse recolor.",
+      "Section": "Compatibility"
+    },
+    "AddSouthBusStopPath": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Set this to false if you do not want to add a path from the bus stop to the farm.",
+      "Section": "Compatibility"
+    },
+    "AddSecretWoodsShortcut": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Set this to false if you do not want the 2-way shortcut to the Secret Woods from the Farm.",
+      "Section": "Compatibility"
+    },
+    "PlaceMultipleRedShed": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Set this to false if you do not want multiple red sheds.",
+      "Section": "Compatibility"
+    },
+    "RemoveFarmVolcano": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Set this to true if you want to remove the volcano on the farm.",
+      "Section": "Compatibility"
+    },
+    "RemoveCommunityKitchen": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Set this to true if you want to remove the community kitchen on the farm.",
+      "Section": "Compatibility"
+    },
+    "RemoveCoop": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Set this to true if you want to remove the coop on the farm.",
+      "Section": "Compatibility"
+    },
+    "RemoveBarn": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Set this to true if you want to remove the barn on the farm.",
+      "Section": "Compatibility"
+    },
+    "RemoveHut": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Set this to true if you want to remove the hut on the farm.",
+      "Section": "Compatibility"
+    },
+    "RemoveStand": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Set this to true if you want to remove the stand on the farm.",
+      "Section": "Compatibility"
+    },
+    "UseBusStopTilesheetAtAnimalFences": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Set this to false if you do not want to align vanilla bus stop tilesheets with the farm.",
+      "Section": "Compatibility"
+    },
+    "UseAnimalFencing": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Set this to false if you do not want an area of fences for animals.",
+      "Section": "Compatibility"
+    },
+    "PathToTunnel": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Set this to false if you do not want a path to the tunnel area.",
+      "Section": "Compatibility"
+    },
+    "RemoveBeachUmbrella": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Set this to false if you do not want an umbrella on the beach.",
+      "Section": "Compatibility"
+    },
+    "RemoveBeachGrill": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Set this to false if you do not want a grill on the beach.",
+      "Section": "Compatibility"
+    },
+    "RemoveBeachSkeleton": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Set this to false if you do not want the skeleton on the beach.",
+      "Section": "Compatibility"
+    },
+    "RemoveCustomTrees": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Set this to false if you do not want custom trees.",
+      "Section": "Compatibility"
+    },
+    "RemoveFenceWest": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Set this to false if you do not want fences near the west side of the farm.",
+      "Section": "Compatibility"
+    },
+    "RemoveBackyardDoor": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Description": "Set this to false if you do not want the backyard door warp.",
+      "Section": "Compatibility"
+    },
+    "ReplaceBeachFarm": {
+      "AllowValues": "true, false",
+      "Default": true,
+      "Description": "Set this to true if you want to override the Beach farm in addition to adding a new farm type -- you need this for saves that were created before the custom farm type was added.",
+      "Section": "Compatibility"
+    }
+  },
+  "DynamicTokens": [
+    {
+      "Name": "recolor",
+      "Value": "default"
+    },
+    {
+      "Name": "recolor",
+      "Value": "eemie",
+      "When": {
+        "HasMod|contains= minervamaga.CP.eemieMapRecolour": true,
+        "HasFile:assets/eemie/{{season}}_extras.png": true
+      }
+    },
+    {
+      "Name": "recolor",
+      "Value": "starblue",
+      "When": {
+        "HasMod |contains= Lita.StarblueValley": true,
+        "HasFile:assets/starblue/{{season}}_extras.png": true
+      }
+    },
+    {
+      "Name": "IsUsingIF4Farm",
+      "Value": false
+    },
+    {
+      "Name": "IsUsingIF4Farm",
+      "Value": true,
+      "When": {
+        "FarmType": "Sexynes_IF4"
+      }
+    },
+    {
+      "Name": "IsUsingIF4Farm",
+      "Value": true,
+      "When": {
+        "FarmType": "Beach",
+        "ReplaceBeachFarm": true
+      }
+    },
+    {
+      "Name": "FurnitureStyle",
+      "Value": "0 0 4 4 1120 5 4 0 1364 5 4 0 1376 1 10 0 1466 1 4 0 1602 5 1 0 1614 3 1 0 1618 6 8 0 1792 8 4 0",
+      "When": {
+        "StartingFurniture": "Standard"
+      }
+    },
+    {
+      "Name": "FurnitureStyle",
+      "Value": "3 1 5 0 1122 1 6 0 1367 1 6 0 1673 1 1 0 1673 3 1 0 1675 10 1 0 1676 5 1 0 1680 5 4 0 1737 6 8 0 1742 5 5 0 1792 8 4 0",
+      "When": {
+        "StartingFurniture": "Fishing"
+      }
+    },
+    {
+      "Name": "FurnitureStyle",
+      "Value": "3 1 6 0 1134 1 7 0 1296 1 4 0 1296 10 4 0 1680 6 4 0 1682 3 1 0 1745 6 1 0 1747 5 4 0 1748 1 7 0 1777 6 5 0 1792 8 4 0",
+      "When": {
+        "StartingFurniture": "Foraging"
+      }
+    },
+    {
+      "Name": "FurnitureStyle",
+      "Value": "1218 1 6 0 1368 1 6 0 1680 5 4 0 1742 5 5 0 1749 3 1 0 1751 5 10 0 1753 5 1 0 1755 1 5 0 1755 3 6 1 1794 8 4 0",
+      "When": {
+        "StartingFurniture": "Mining"
+      }
+    },
+    {
+      "Name": "FurnitureStyle",
+      "Value": "1393 3 4 0 1369 3 4 0 1389 10 4 0 1628 1 5 0 1630 1 1 0 1678 10 1 0 1680 1 4 0 1758 1 10 0 1794 8 4 0 1811 6 1 0 1812 3 1 0",
+      "When": {
+        "StartingFurniture": "Combat"
+      }
+    },
+    {
+      "Name": "FurnitureStyle",
+      "Value": "202 3 4 1 202 6 4 3 1124 4 4 1 1377 1 9 0 1378 10 4 0 1379 5 4 0 1445 1 10 0 1466 1 4 0 1601 10 1 0 1614 3 1 0 1614 6 1 0 1618 2 9 0 1792 8 4 0",
+      "When": {
+        "StartingFurniture": "Corners"
+      }
+    },
+    {
+      "Name": "FurnitureStyle",
+      "Value": "6 2 6 1 6 5 7 3 202 7 4 0 1124 3 6 0 1228 2 9 0 1283 1 4 0 1294 3 4 0 1294 10 4 0 1362 4 6 0 1614 7 1 0 1614 8 1 0 1680 4 4 0",
+      "When": {
+        "StartingFurniture": "Island"
+      }
+    },
+    /*Do not reorder value (chair, then fireplace, then rug, then pitchfork?)*/
+    {
+      "Name": "FurnitureStyle",
+      "Value": "312 8 6 2 1792 8 4 0 2802 7 4 0 192 1 8 2 704 4 4 0 1120 1 6 0 1369 1 6 0 1382 3 4 0 1383 1 10 0 1443 8 10 0 1616 3 1 0 1616 5 1 0 1680 1 4 0 1814 2 1 0 1814 4 1 0 1814 6 1 0 2632 7 1 0",
+      "When": {
+        "StartingFurniture": "Ranching"
+      }
+    },
+    {
+      "Name": "WallStyle",
+      "Value": "0",
+      "When": {
+        "StartingFurniture": "Standard"
+      }
+    },
+    {
+      "Name": "WallStyle",
+      "Value": "11",
+      "When": {
+        "StartingFurniture": "Fishing"
+      }
+    },
+    {
+      "Name": "WallStyle",
+      "Value": "92",
+      "When": {
+        "StartingFurniture": "Foraging"
+      }
+    },
+    {
+      "Name": "WallStyle",
+      "Value": "12",
+      "When": {
+        "StartingFurniture": "Mining"
+      }
+    },
+    {
+      "Name": "WallStyle",
+      "Value": "95",
+      "When": {
+        "StartingFurniture": "Combat"
+      }
+    },
+    {
+      "Name": "WallStyle",
+      "Value": "65",
+      "When": {
+        "StartingFurniture": "Corners"
+      }
+    },
+    {
+      "Name": "WallStyle",
+      "Value": "106",
+      "When": {
+        "StartingFurniture": "Island"
+      }
+    },
+    {
+      "Name": "WallStyle",
+      "Value": "41",
+      "When": {
+        "StartingFurniture": "Ranching"
+      }
+    },
+    {
+      "Name": "FloorStyle",
+      "Value": "0",
+      "When": {
+        "StartingFurniture": "Standard"
+      }
+    },
+    {
+      "Name": "FloorStyle",
+      "Value": "1",
+      "When": {
+        "StartingFurniture": "Fishing"
+      }
+    },
+    {
+      "Name": "FloorStyle",
+      "Value": "34",
+      "When": {
+        "StartingFurniture": "Foraging"
+      }
+    },
+    {
+      "Name": "FloorStyle",
+      "Value": "18",
+      "When": {
+        "StartingFurniture": "Mining"
+      }
+    },
+    {
+      "Name": "FloorStyle",
+      "Value": "4",
+      "When": {
+        "StartingFurniture": "Combat"
+      }
+    },
+    {
+      "Name": "FloorStyle",
+      "Value": "5",
+      "When": {
+        "StartingFurniture": "Corners"
+      }
+    },
+    {
+      "Name": "FloorStyle",
+      "Value": "35",
+      "When": {
+        "StartingFurniture": "Island"
+      }
+    },
+    {
+      "Name": "FloorStyle",
+      "Value": "41",
+      "When": {
+        "StartingFurniture": "Ranching"
+      }
+    },
+    {
+      "Name": "FarmHouseStarterGiftPosition",
+      "Value": "4 7",
+      "When": {
+        "StartingFurniture": "Standard, Corners"
+      }
+    },
+    {
+      "Name": "FarmHouseStarterGiftPosition",
+      "Value": "5 7",
+      "When": {
+        "StartingFurniture": "Fishing, Foraging, Combat, Ranching"
+      }
+    },
+    {
+      "Name": "FarmHouseStarterGiftPosition",
+      "Value": "2 9",
+      "When": {
+        "StartingFurniture": "Mining"
+      }
+    },
+    {
+      "Name": "FarmHouseStarterGiftPosition",
+      "Value": "8 6",
+      "When": {
+        "StartingFurniture": "Island"
+      }
+    }
+  ],
+  "Changes": [
+    {
+      "LogName": "Include IF4 Fish Data",
+      "Action": "Include",
+      "FromFile": "assets/IF4FishData.json",
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "Include IF4 Custom Tree Map Patch Data",
+      "Action": "Include",
+      "FromFile": "assets/IF4CustomTreeMapPatchData.json",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveCustomTrees": false
+      }
+    },
+    {
+      "LogName": "Add IF4 Red Shed Map",
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_IF4RedShed",
+      "FromFile": "assets/IF4RedShedInterior.tmx"
+    },
+    {
+      "LogName": "IF4 Locations Data",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "{{ModId}}_IF4RedShed": {
+          "DefaultArrivalTile": {
+            "X": 11,
+            "Y": 19
+          },
+          "CreateOnLoad": {
+            "AlwaysActive": false,
+            "MapPath": "Maps/{{ModId}}_IF4RedShed",
+            "Type": "StardewValley.Locations.DecoratableLocation"
+          },
+          "FormerLocationNames": [
+            "Custom_IF4RedShed"
+          ]
+        }
+      },
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    },
+    /*tilesheets need to be explicitly loaded in order to intercept them later*/
+    {
+      "LogName": "Default Tilesheet Load",
+      "Action": "Load",
+      "Target": "Maps/spring_extras",
+      "FromFile": "assets/default/spring_extras.png"
+    },
+    {
+      "LogName": "Default Tilesheet Load",
+      "Action": "Load",
+      "Target": "Maps/summer_extras",
+      "FromFile": "assets/default/summer_extras.png"
+    },
+    {
+      "LogName": "Default Tilesheet Load",
+      "Action": "Load",
+      "Target": "Maps/fall_extras",
+      "FromFile": "assets/default/fall_extras.png"
+    },
+    {
+      "LogName": "Default Tilesheet Load",
+      "Action": "Load",
+      "Target": "Maps/winter_extras",
+      "FromFile": "assets/default/winter_extras.png"
+    }
+    /*we can then overlay the loaded tilesheets with the available recolor*/ ,
+    {
+      "LogName": "Recolored Tilesheets",
+      "Action": "EditImage",
+      "Target": "Maps/{{season}}_extras",
+      "FromFile": "assets/{{recolor}}/{{season}}_extras.png",
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/font_bold",
+      "FromFile": "assets/font_bold.png",
+      "ToArea": {
+        "X": 88,
+        "Y": 80,
+        "Width": 8,
+        "Height": 16
+      },
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 World Map",
+      "Action": "EditImage",
+      "Target": "LooseSprites/map",
+      "FromFile": "assets/map.png",
+      "PatchMode": "Replace",
+      "When": {
+        "HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,
+        "UseIF4WorldMap": true,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/Sexynes_IF4/WorldMap",
+      "FromFile": "assets/worldmapslice-blank.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Mods/Sexynes_IF4/WorldMap",
+      "FromFile": "assets/worldmapslice.png",
+      "When": {
+        "HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,
+        "UseIF4WorldMap": true,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AdditionalFarms",
+      "Entries": {
+        "Sexynes_IF4": {
+          "ID": "Sexynes_IF4",
+          "TooltipStringPath": "Strings/1_6_Strings:Sexynes_IF4",
+          "MapName": "Sexynes_IF4",
+          "IconTexture": "Mods/Sexynes_IF4/Icon",
+          "SpawnMonstersByDefault": false,
+          "WorldMapTexture": "Mods/Sexynes_IF4/WorldMap",
+          "MigrateLegacyNames": [
+            "Sexynes_IF3"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/1_6_Strings",
+      "Entries": {
+        "Sexynes_IF4": "Immersive Farm 4_Sexynes's variant to zanderb14's Immersive Farm."
+      }
+    },
+    {
+      "LogName": "IF4 World Map Beach",
+      "Action": "EditImage",
+      "Target": "LooseSprites/map",
+      "FromFile": "assets/worldmapslice.png",
+      "ToArea": {
+        "X": 131,
+        "Y": 302,
+        "Width": 131,
+        "Height": 61
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,
+        "UseIF4WorldMap": true,
+        "IsUsingIF4Farm": true,
+        "FarmType": "Beach"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Sexynes_IF4",
+      "FromFile": "assets/IF4Farm.tmx"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Farm_Island",
+      "FromFile": "assets/IF4Farm.tmx",
+      "When": {
+        "ReplaceBeachFarm": true,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/Sexynes_IF4/Icon",
+      "FromFile": "assets/icon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Greenhouse",
+      "FromFile": "assets/IF4Greenhouse.tmx",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "UseIF4Greenhouse": true
+      }
+    },
+    {
+      "LogName": "Greenhouse Recolor",
+      "Action": "EditImage",
+      "Target": "Buildings/Greenhouse",
+      "FromFile": "assets/{{recolor}}/{{season}}_extras.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 160,
+        "Width": 112,
+        "Height": 160
+      },
+      "FromArea": {
+        "X": 0,
+        "Y": 992,
+        "Width": 112,
+        "Height": 160
+      },
+      "When": {
+        "IsUsingIF4Farm": true,
+        "UseIF4GreenhouseExterior": true
+      }
+    },
+    {
+      "LogName": "Adds the Greenhouse Exteriors",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4GreenhouseAddOns.tmx",
+      "ToArea": {
+        "X": 33,
+        "Y": 33,
+        "Width": 9,
+        "Height": 8
+      },
+      "When": {
+        "IsUsingIF4Farm": true,
+        "UseIF4GreenhouseExterior": true
+      }
+    },
+    {
+      "LogName": "Add various starting properties to farm",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "MapProperties": {
+        "AllowGrassSurviveInWinter": "T",
+        "BackwoodsEntry": "40 0",
+        "BusStopEntry": "85 16",
+        "DayTiles": "Buildings 5 24 510 AlwaysFront 5 97 387 Buildings 13 123 510 AlwaysFront 24 141 387 Front 43 2 387 AlwaysFront 59 44 387 AlwaysFront 59 65 387 Buildings 63 88 510 AlwaysFront 77 13 387 Buildings 78 7 510 Buildings 79 121 510 AlwaysFront 100 66 387 Buildings 132 77 510 AlwaysFront 153 10 387 AlwaysFront 169 117 387",
+        "EnableGrassSpread": "T",
+        "FarmCaveEntry": "77 9",
+        "FarmHouseEntry": "64 15",
+        "FarmHouseFlooring": "{{FloorStyle}}",
+        "FarmHouseFurniture": "{{FurnitureStyle}}",
+        "FarmHouseStarterGift": "(BC)275 1 (O)599 1 (O)688 4 (O)745 4 (O)913 1 (O)918 4",
+        "FarmHouseStarterSeedsPosition": "{{FarmHouseStarterGiftPosition}}",
+        "FarmHouseWallpaper": "{{WallStyle}}",
+        "FarmOceanCrabPotOverride": "T",
+        "ForestEntry": "56 69",
+        "GrandpaShrineLocation": "8 7",
+        "GreenhouseLocation": "33 34",
+        "Light": "5 24 4 13 123 4 63 88 4 78 7 4 79 121 4 132 77 4",
+        "MailboxLocation": "68 16",
+        "NightTiles": "Buildings 5 24 507 Buildings 13 123 507 Buildings 63 88 507 Buildings 78 7 507 Buildings 79 121 507 Buildings 132 77 507",
+        "Outdoors": "T",
+        "PetBowlLocation": "53 7",
+        "ShippingBinLocation": "71 14",
+        "SpawnForestFarmForage": "T",
+        "SpawnMountainFarmOreRect": "67 89 28 20",
+        "SpawnBeachFarmForage": "T",
+        "SpawnRandomGrassOnNewYear": "T",
+        "SpouseAreaLocation": "69 6",
+        "Stumps": "6 134 3 8 129 3",
+        "Warp": "85 14 BusStop 11 23 86 14 BusStop 11 23 175 152 BusStop 22 11 55 71 Forest 68 0 56 71 Forest 68 0 57 71 Forest 68 0 55 99 Forest 68 0 56 99 Forest 68 0 39 -1 Backwoods 14 39 40 -1 Backwoods 14 39 41 -1 Backwoods 14 39 9 90 FarmCave 71 29 16 73 FarmCave 79 14 77 7 FarmCave 8 11 175 109 Farm 155 15 175 110 Farm 155 15 175 122 Forest 68 0 175 123 Forest 68 0 45 69 Farm 174 143 174 141 Farm 51 101 51 99 Farm 45 71 42 125 Farm 52 88 52 80 Farm 6 76 10 68 Farm 15 59 10 69 Farm 15 59 10 70 Farm 15 59 51 90 Farm 42 127 52 90 Farm 42 127 53 90 Farm 42 127 30 52 Farm 36 52 31 60 Farm 38 58 36 60 Farm 29 60 35 52 Farm 28 52 53 55 Farm 60 55 59 55 Farm 51 55 75 68 Farm 74 74 75 72 Farm 75 66 81 67 Farm 81 72 81 71 Farm 80 65 96 102 Farm 96 113 96 112 Farm 96 100 107 102 Farm 107 113 107 112 Farm 107 100 121 126 Farm 121 132 121 131 Farm 121 124 161 76 Farm 163 67 161 69 Farm 161 77 39 153 Farm 39 147 39 149 Farm 40 154 48 146 Farm 47 140 49 142 Farm 49 147 46 149 Farm 40 147 41 149 Farm 47 149 42 137 Farm 42 120 42 122 Farm 42 138 28 71 Farm 27 78 28 76 Farm 28 69 27 84 Farm 27 91 27 90 Farm 27 82 24 44 Farm 24 34 24 36 Farm 24 45 24 25 Farm 25 18 24 20 Farm 24 26 28 7 Farm 169 35 171 35 Farm 28 10 6 74 Farm 52 82 150 111 Farm 144 118 146 116 Farm 152 109 61 128 Farm 175 83 176 83 Farm 61 130 0 52 Farm 177 62 179 62 Farm 2 52",
+        "WarpTotemEntry": "68 9"
+      },
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "Add map properties to IF4 farm cave",
+      "Action": "EditMap",
+      "Target": "Maps/FarmCave",
+      "MapProperties": {
+        "AmbientLight": "90 90 90",
+        "Warp": "7 12 Farm 77 9 8 12 Farm 77 9 9 12 Farm 77 9 78 15 Farm 16 75 79 15 Farm 16 75 80 15 Farm 16 75 70 30 Farm 9 92 71 30 Farm 9 92 72 30 Farm 9 92"
+      },
+      "When": {
+        "IsUsingIF4Farm": true,
+        "DisableIF4FarmCave": false
+      }
+    },
+    {
+      "LogName": "Replace Farm Cave",
+      "Action": "EditMap",
+      "Target": "Maps/FarmCave",
+      "FromFile": "assets/IF4FarmCave.tmx",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "DisableIF4FarmCave": false
+      }
+    },
+    {
+      "LogName": "Disabled Farm Cave IF4",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 4,
+            "Y": 25
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 19 5 FarmCave"
+          }
+        },
+        {
+          "Position": {
+            "X": 12,
+            "Y": 124
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 29 5 FarmCave"
+          }
+        },
+        {
+          "Position": {
+            "X": 78,
+            "Y": 122
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 30 11 FarmCave"
+          }
+        },
+        {
+          "Position": {
+            "X": 131,
+            "Y": 78
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 24 5 FarmCave"
+          }
+        }
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "DisableIF4FarmCave": false
+      }
+    },
+    {
+      "LogName": "Block West Farm Cave IF4",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 9,
+            "Y": 91
+          },
+          "Layer": "Buildings",
+          "SetTilesheet": "Landscape",
+          "SetIndex": 1673
+        },
+        {
+          "Position": {
+            "X": 16,
+            "Y": 74
+          },
+          "Layer": "Buildings",
+          "SetTilesheet": "Landscape",
+          "SetIndex": 1673
+        }
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "DisableIF4FarmCave": true
+      }
+    },
+    {
+      "LogName": "Add the additional path to farm from bus stop when using Stardew Valley Reimagined 3",
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "FromFile": "assets/SVR3IF4BusStopPath.tmx",
+      "ToArea": {
+        "X": 7,
+        "Y": 24,
+        "Width": 5,
+        "Height": 6
+      },
+      "AddWarps": [
+        "8 30 Farm 150 15",
+        "9 30 Farm 150 15",
+        "10 30 Farm 150 15"
+      ],
+      "When": {
+        "HasMod |contains= DaisyNiko.SVR3": true,
+        "IsUsingIF4Farm": true,
+        "AddSouthBusStopPath": true
+      }
+    },
+    {
+      "LogName": "Add the warps to bus stop from farm when using Stardew Valley Reimagined 3",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "AddWarps": [
+        "149 12 BusStop 9 29",
+        "150 12 BusStop 9 29",
+        "151 12 BusStop 9 29"
+      ],
+      "When": {
+        "HasMod |contains= DaisyNiko.SVR3": true,
+        "IsUsingIF4Farm": true,
+        "AddSouthBusStopPath": true
+      }
+    },
+    {
+      "LogName": "Merge RedShed to configurable coordinates + Warp Map Tile",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4RedShedMerge.tmx",
+      "ToArea": {
+        "X": "{{Query: {{RedShedCoordsX}}}}",
+        "Y": "{{Query: {{RedShedCoordsY}}}}",
+        "Width": 10,
+        "Height": 9
+      },
+      "PatchMode": "Overlay",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": "{{Query: {{RedShedCoordsX}} + 4}}",
+            "Y": "{{Query: {{RedShedCoordsY}} + 7}}"
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 11 19 {{ModId}}_IF4RedShed"
+          }
+        }
+      ],
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Red Shed Map Properties",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_IF4RedShed",
+      "MapProperties": {
+        "CanCaskHere": "T",
+        "FloorIDs": "Main",
+        "WallIDs": "Main",
+        "Warp": "11 21 Farm {{Query: {{RedShedCoordsX}} + 4}} {{Query: {{RedShedCoordsY}} + 8}}"
+      },
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "Add the additional path to farm from bus stop",
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "FromFile": "assets/IF4BusStopPath.tmx",
+      "ToArea": {
+        "X": 37,
+        "Y": 24,
+        "Width": 6,
+        "Height": 6
+      },
+      "AddWarps": [
+        "38 30 Farm 150 15",
+        "39 30 Farm 150 15",
+        "40 30 Farm 150 15"
+      ],
+      "When": {
+        "HasMod |contains= DaisyNiko.SVR3": false,
+        "IsUsingIF4Farm": true,
+        "AddSouthBusStopPath": true
+      }
+    },
+    {
+      "LogName": "Add the additional path to bus stop from farm when using Stardew Valley Reimagined 3",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4FarmBusPath.tmx",
+      "ToArea": {
+        "X": 147,
+        "Y": 2,
+        "Width": 8,
+        "Height": 13
+      },
+      "AddWarps": [
+        "149 12 BusStop 9 29",
+        "150 12 BusStop 9 29",
+        "151 12 BusStop 9 29"
+      ],
+      "When": {
+        "HasMod |contains= DaisyNiko.SVR3": true,
+        "IsUsingIF4Farm": true,
+        "AddSouthBusStopPath": true
+      }
+    },
+    {
+      "LogName": "Add woods shortcut",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4WoodsShortcut.tmx",
+      "ToArea": {
+        "X": 19,
+        "Y": 143,
+        "Width": 5,
+        "Height": 4
+      },
+      "AddWarps": [
+        "20 148 Woods 28 3",
+        "21 148 Woods 28 3",
+        "22 148 Woods 28 3"
+      ],
+      "When": {
+        "AddSecretWoodsShortcut": true,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "Remove Woods tiles for shortcut",
+      "Action": "EditMap",
+      "Target": "Maps/Woods",
+      "FromFile": "assets/IF4Woods.tmx",
+      "ToArea": {
+        "X": 27,
+        "Y": 2,
+        "Width": 3,
+        "Height": 3
+      },
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 27,
+            "Y": 2
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp Farm 20 147"
+          }
+        },
+        {
+          "Position": {
+            "X": 28,
+            "Y": 2
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp Farm 21 147"
+          }
+        },
+        {
+          "Position": {
+            "X": 29,
+            "Y": 2
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp Farm 22 147"
+          }
+        }
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "AddSecretWoodsShortcut": true
+      }
+    },
+    {
+      "LogName": "Merge Red Shed Interior Paths",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_IF4RedShed",
+      "FromFile": "assets/IF4RedShedInteriorPaths.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 19,
+        "Width": 29,
+        "Height": 2
+      },
+      "AddWarps": [
+        "8 21 Farm 80 89",
+        "26 21 Farm 143 142",
+        "2 21 Farm 15 110",
+        "5 21 Farm 17 43"
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "PlaceMultipleRedShed": true
+      }
+    },
+    {
+      "LogName": "Merge RedShedC",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4RedShedMergeC.tmx",
+      "ToArea": {
+        "X": 78,
+        "Y": 83,
+        "Width": 5,
+        "Height": 7
+      },
+      "PatchMode": "Overlay",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 80,
+            "Y": 88
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 8 19 {{ModId}}_IF4RedShed"
+          }
+        }
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "PlaceMultipleRedShed": true
+      }
+    },
+    {
+      "LogName": "Merge RedShedNW",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4RedShedMergeNW.tmx",
+      "ToArea": {
+        "X": 15,
+        "Y": 38,
+        "Width": 5,
+        "Height": 6
+      },
+      "PatchMode": "Overlay",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 17,
+            "Y": 42
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 5 19 {{ModId}}_IF4RedShed"
+          }
+        }
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "PlaceMultipleRedShed": true
+      }
+    },
+    {
+      "LogName": "Merge RedShedSE",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4RedShedMergeSE.tmx",
+      "ToArea": {
+        "X": 141,
+        "Y": 136,
+        "Width": 5,
+        "Height": 7
+      },
+      "PatchMode": "Overlay",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 143,
+            "Y": 141
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 26 19 {{ModId}}_IF4RedShed"
+          }
+        }
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "PlaceMultipleRedShed": true
+      }
+    },
+    {
+      "LogName": "Merge RedShedSW",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4RedShedMergeSW.tmx",
+      "ToArea": {
+        "X": 13,
+        "Y": 105,
+        "Width": 5,
+        "Height": 6
+      },
+      "PatchMode": "Overlay",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 15,
+            "Y": 109
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 2 19 {{ModId}}_IF4RedShed"
+          }
+        }
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "PlaceMultipleRedShed": true
+      }
+    },
+    {
+      "LogName": "Remove Farm Volcano",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4FarmVolcano.tmx",
+      "ToArea": {
+        "X": 127,
+        "Y": 55,
+        "Width": 10,
+        "Height": 10
+      },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "MapProperties",
+            "Light"
+          ],
+          "Value": "130 60 5 133 60 5",
+          "Delimiter": " "
+        }
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveFarmVolcano": false,
+        "Query: {{DLX.Bundles/DaysSincePurchase:{{ModId}}_IF4VolcanoForge}} >= 0": false
+      }
+    },
+    {
+      "LogName": "Fences for Animals",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4FarmAnimalFencing.tmx",
+      "ToArea": {
+        "X": 99,
+        "Y": 3,
+        "Width": 51,
+        "Height": 26
+      },
+      "When": {
+        "IsUsingIF4Farm": true,
+        "UseAnimalFencing": true
+      }
+    },
+    {
+      "LogName": "Bus Stop Tilesheet on Farm",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4FarmBusStopTilesheet.tmx",
+      "ToArea": {
+        "X": 120,
+        "Y": 0,
+        "Width": 27,
+        "Height": 11
+      },
+      "When": {
+        "IsUsingIF4Farm": true,
+        "UseBusStopTilesheetAtAnimalFences": true
+      }
+    },
+    {
+      "LogName": "Path to Tunnel",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4PathToTunnel.tmx",
+      "ToArea": {
+        "X": 46,
+        "Y": 0,
+        "Width": 4,
+        "Height": 6
+      },
+      "AddWarps": [
+        "47 4 Backwoods 42 31",
+        "48 4 Backwoods 42 31"
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "PathToTunnel": true
+      }
+    },
+    {
+      "LogName": "Tunnel to Farm",
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "FromFile": "assets/IF4TunnelToFarm.tmx",
+      "ToArea": {
+        "X": 42,
+        "Y": 33,
+        "Width": 2,
+        "Height": 2
+      },
+      "AddWarps": [
+        "42 34 Farm 48 6",
+        "43 34 Farm 48 6",
+        "44 34 Farm 48 6"
+      ],
+      "When": {
+        "HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,
+        "HasMod |contains= DaisyNiko.SVR3": false,
+        "IsUsingIF4Farm": true,
+        "PathToTunnel": true
+      }
+    },
+    {
+      "LogName": "Tunnel to Farm with SVE",
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "AddWarps": [
+        "42 33 Farm 48 6",
+        "43 33 Farm 48 6",
+        "44 33 Farm 48 6"
+      ],
+      "When": {
+        "HasMod |contains= FlashShifter.StardewValleyExpandedCP": true,
+        "HasMod |contains= DaisyNiko.SVR3": false,
+        "IsUsingIF4Farm": true,
+        "PathToTunnel": true
+      }
+    },
+    {
+      "LogName": "Add the additional path to bus stop from farm",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4FarmBusPath.tmx",
+      "ToArea": {
+        "X": 147,
+        "Y": 2,
+        "Width": 8,
+        "Height": 13
+      },
+      "AddWarps": [
+        "149 12 BusStop 39 29",
+        "150 12 BusStop 39 29",
+        "151 12 BusStop 39 29"
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "AddSouthBusStopPath": true
+      }
+    },
+    {
+      "LogName": "IF4 Farm Cave Unlockable Bundle Texture Load",
+      "Action": "Load",
+      "Target": "{{ModId}}/IF4BlankBundle",
+      "FromFile": "assets/BlankBundle.png"
+    },
+    {
+      "LogName": "IF4 Farm Cave Default Minecart Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4FarmCaveDefaultMinecart{{Day}}{{Season}}{{Year}}": {
+          "Location": "FarmCave",
+          "ShopType": "SpeechBubble",
+          "BundleDescription": "May I have this item?",
+          "ShopColor": "rgb({{Query: {{Random: {{Range: 0, 255}}|key=IF4FarmCaveDefaultMinecartR}}}}, {{Query: {{Random: {{Range: 0, 255}}|key=IF4FarmCaveDefaultMinecartG}}}}, {{Query: {{Random: {{Range: 0, 255}}|key=IF4FarmCaveDefaultMinecartB}}}})",
+          "ShopEvent": "None",
+          "ShopPosition": "31, 5",
+          "PriceSpawnFields": [
+            {
+              "MaxItems": 2,
+              "RandomItemId": [
+                "RANDOM_ITEMS (O) 538 578"
+              ]
+            }
+          ],
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4FarmCaveDefaultMinecart"
+          ]
+        }
+      },
+      "When": {
+        "HasMod |contains= DLX.Bundles": true,
+        "IsUsingIF4Farm": true,
+        "HasFlag |contains= ccBoilerRoom, jojaBoilerRoom": true,
+        "DisableIF4FarmCave": false,
+        "HasFlag |contains= {{ModId}}_IF4FarmCaveDefaultMinecart": false
+      }
+    },
+    {
+      "LogName": "IF4FarmCave to Default Minecarts",
+      "Action": "EditData",
+      "Target": "Data/Minecarts",
+      "TargetField": [
+        "Default",
+        "Destinations"
+      ],
+      "Entries": {
+        "IF4FarmCave": {
+          "Id": "IF4FarmCave",
+          "DisplayName": "[FarmName] Farm Cave",
+          "TargetLocation": "FarmCave",
+          "TargetTile": {
+            "X": 31,
+            "Y": 6
+          },
+          "TargetDirection": "left"
+        }
+      },
+      "When": {
+        "HasFlag |contains= {{ModId}}_IF4FarmCaveDefaultMinecart": true,
+        "HasMod |contains= DLX.Bundles": true,
+        "IsUsingIF4Farm": true,
+        "DisableIF4FarmCave": false
+      }
+    },
+    {
+      "LogName": "IF4 Farm Cave MinecartTransport",
+      "Action": "EditMap",
+      "Target": "Maps/FarmCave",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 32,
+            "Y": 6
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MinecartTransport"
+          }
+        },
+        {
+          "Position": {
+            "X": 33,
+            "Y": 6
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MinecartTransport"
+          }
+        }
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "DisableIF4FarmCave": false
+      }
+    },
+    {
+      "LogName": "IF4 Farm Center Default Minecart Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4FarmCenterDefaultMinecart{{Day}}{{Season}}{{Year}}": {
+          "Location": "Farm",
+          "ShopType": "SpeechBubble",
+          "BundleDescription": "May I have this item?",
+          "ShopColor": "rgb({{Query: {{Random: {{Range: 0, 255}}|key=IF4FarmCenterDefaultMinecartR}}}}, {{Query: {{Random: {{Range: 0, 255}}|key=IF4FarmCenterDefaultMinecartG}}}}, {{Query: {{Random: {{Range: 0, 255}}|key=IF4FarmCenterDefaultMinecartB}}}})",
+          "ShopEvent": "None",
+          "ShopPosition": "61, 90",
+          "PriceSpawnFields": [
+            {
+              "MaxItems": 2,
+              "RandomItemId": [
+                "RANDOM_ITEMS (O) 96 127"
+              ]
+            }
+          ],
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4FarmCenterDefaultMinecart"
+          ]
+        }
+      },
+      "When": {
+        "HasMod |contains= DLX.Bundles": true,
+        "IsUsingIF4Farm": true,
+        "HasFlag |contains= ccBoilerRoom": true,
+        "HasFlag |contains= {{ModId}}_IF4FarmCenterDefaultMinecart": false
+      }
+    },
+    {
+      "LogName": "IF4 Center to Default Minecarts",
+      "Action": "EditData",
+      "Target": "Data/Minecarts",
+      "TargetField": [
+        "Default",
+        "Destinations"
+      ],
+      "Entries": {
+        "IF4Center": {
+          "Id": "IF4Center",
+          "DisplayName": "[FarmName] Farm",
+          "TargetLocation": "Farm",
+          "TargetTile": {
+            "X": 62,
+            "Y": 90
+          },
+          "TargetDirection": "down"
+        }
+      },
+      "When": {
+        "HasFlag |contains= {{ModId}}_IF4FarmCenterDefaultMinecart": true,
+        "HasMod |contains= DLX.Bundles": true,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "Custom IF4 Farm Center MinecartTransport",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 62,
+            "Y": 89
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MinecartTransport"
+          }
+        }
+      ],
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Beach Skeleton Map Patch",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4BeachSkeleton.tmx",
+      "ToArea": {
+        "X": 156,
+        "Y": 124,
+        "Width": 5,
+        "Height": 18
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveBeachSkeleton": false
+      }
+    },
+    {
+      "LogName": "IF4 Sprinklers On Sand Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4SprinklersOnSand": {
+          "Location": "Farm",
+          "ShopType": "CCBundle",
+          "BundleDescription": "Allow sprinklers on IF4 sand.",
+          "ShopEvent": "none",
+          "ShopPosition": "158, 141",
+          "ShopTexture": "{{ModId}}/IF4BlankBundle",
+          "DrawQuestionMark": true,
+          "QuestionMarkOffset": "24, 0",
+          "Price": {
+            "CalicoEgg": 75
+          },
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4SprinklersOnSand"
+          ],
+          "InteractionShake": true,
+          "InstantShopRemoval": true
+        }
+      },
+      "When": {
+        "HasMod |contains= aedenthorn.DynamicMapTilesExtended": true,
+        "HasMod |contains= DLX.Bundles": true,
+        "IsUsingIF4Farm": true,
+        "HasFlag |contains= {{ModId}}_IF4SprinklersOnSand": false,
+        "RemoveBeachSkeleton": false
+      }
+    },
+    {
+      "LogName": "IF4 Sprinklers on Sand",
+      "Action": "EditData",
+      "Target": "DMT/Tiles",
+      "Entries": {
+        "{{ModId}}.IF4SprinklersOnSand": {
+          "Locations": [
+            "Farm"
+          ],
+          "Layers": [
+            "Back"
+          ],
+          "TileSheetPaths": [
+            "spring_beach",
+            "island_tilesheet_1"
+          ],
+          "Actions": [
+            {
+              "LogName": "SprinklersOnSand",
+              "Key": "DMT/changeProperties",
+              "Value": "NoSprinklers=",
+              "Trigger": "Load"
+            }
+          ]
+        }
+      },
+      "When": {
+        "HasMod |contains= aedenthorn.DynamicMapTilesExtended": true,
+        "HasMod |contains= DLX.Bundles": true,
+        "IsUsingIF4Farm": true,
+        "HasFlag |contains= {{ModId}}_IF4SprinklersOnSand": true
+      },
+      "Update": "OnLocationChange, OnTimeChange"
+    },
+    {
+      "LogName": "IF4 Volcano Forge Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4VolcanoForge": {
+          "Location": "Farm",
+          "ShopType": "SpeechBubble",
+          "BundleDescription": "May I have this item?",
+          "ShopColor": "rgb({{Query: {{Random: {{Range: 200, 255}}|key=IF4VolcanoForgeR}}}}, {{Query: {{Random: {{Range: 50, 100}}|key=IF4VolcanoForgeG}}}}, {{Query: {{Random: {{Range: 0, 50}}|key=IF4VolcanoForgeB}}}})",
+          "ShopEvent": "None",
+          "ShopPosition": "131, 65",
+          "Price": {
+            "852": 5
+          },
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4VolcanoForge"
+          ]
+        }
+      },
+      "When": {
+        "HasMod |contains= DLX.Bundles": true,
+        "IsUsingIF4Farm": true,
+        "RemoveFarmVolcano": false
+      }
+    },
+    {
+      "LogName": "If4 Volcano Forge Map Patch",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4FarmVolcanoForge.tmx",
+      "ToArea": {
+        "X": 127,
+        "Y": 55,
+        "Width": 10,
+        "Height": 10
+      },
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "MapProperties",
+            "Light"
+          ],
+          "Value": "130 60 5 133 60 5",
+          "Delimiter": " "
+        }
+      ],
+      "When": {
+        "Query: {{DLX.Bundles/DaysSincePurchase:{{ModId}}_IF4VolcanoForge}} >= 0": true,
+        "IsUsingIF4Farm": true,
+        "RemoveFarmVolcano": false
+      }
+    },
+    {
+      "LogName": "IF4 Wizard Book Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4WizardBook": {
+          "Location": "Farm",
+          "ShopType": "SpeechBubble",
+          "BundleDescription": "May I have this item?",
+          "ShopColor": "rgb({{Query: {{Random: {{Range: 42, 167}}|key=IF4WizardBookR}}}}, {{Query: {{Random: {{Range: 0, 25}}|key=IF4WizardBookG}}}}, {{Query: {{Random: {{Range: 76, 234}}|key=IF4WizardBookB}}}})",
+          "ShopEvent": "None",
+          "ShopPosition": "53, 82",
+          "Price": {
+            "857": 1
+          },
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4WizardBook"
+          ]
+        }
+      },
+      "When": {
+        "HasMod |contains= DLX.Bundles": true,
+        "IsUsingIF4Farm": true,
+        "HasWalletItem": "MagicInk"
+      }
+    },
+    {
+      "LogName": "IF4 Wizard Book Map Patch",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4WizardBook.tmx",
+      "ToArea": {
+        "X": 46,
+        "Y": 82,
+        "Width": 1,
+        "Height": 2
+      },
+      "PatchMode": "Overlay",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [
+            "MapProperties",
+            "Light"
+          ],
+          "Value": "56 86 5",
+          "Delimiter": " "
+        }
+      ],
+      "When": {
+        "Query: {{DLX.Bundles/DaysSincePurchase:{{ModId}}_IF4WizardBook}} >= 0": true,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Build On Ginger Island Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4BuildOnGingerIsland": {
+          "Location": "Farm",
+          "ShopType": "ParrotPerch",
+          "BundleDescription": "*Awk* Give?",
+          "ShopColor": "rgb({{Query: {{Random: {{Range: 0, 205}}|key=IF4BuildOnGingerIslandR}}}}, {{Query: {{Random: {{Range: 43, 255}}|key=IF4BuildOnGingerIslandG}}}}, {{Query: {{Random: {{Range: 2, 86}}|key=IF4BuildOnGingerIslandB}}}})",
+          "ShopEvent": "None",
+          "ShopPosition": "44, 89",
+          "Price": {
+            "917": 1
+          },
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4BuildOnGingerIsland"
+          ]
+        }
+      },
+      "When": {
+        "Query: {{DLX.Bundles/DaysSincePurchase:{{ModId}}_IF4WizardBook}} > 0": true,
+        "HasMod |contains= DLX.Bundles": true,
+        "HasMod |contains= Sexynes.CP.BuildOnGingerIslandFarm": false,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Additional Map Properties Ginger Island Farm",
+      "Action": "EditMap",
+      "Target": "Maps/Island_W",
+      "MapProperties": {
+        "BuildConditions": "PLAYER_VISITED_LOCATION Any IslandWest",
+        "CanBuildHere": "T",
+        "LooserBuildRestrictions": "T"
+      },
+      "When": {
+        "Query: {{DLX.Bundles/DaysSincePurchase:{{ModId}}_IF4BuildOnGingerIsland}} >= 0": true,
+        "HasMod |contains= Sexynes.CP.BuildOnGingerIslandFarm": false,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 AlwaysActive Ginger Island Farm",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandWest",
+        "CreateOnLoad"
+      ],
+      "Entries": {
+        "AlwaysActive": true
+      },
+      "When": {
+        "DLX.Bundles/Discovered": "{{ModId}}_IF4BuildOnGingerIsland",
+        "HasMod |contains= DLX.Bundles": true,
+        "HasMod |contains= Sexynes.CP.BuildOnGingerIslandFarm": false,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Ginger Island Farm Display Name",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "IslandWest"
+      ],
+      "Entries": {
+        "DisplayName": "Ginger Island Farm"
+      },
+      "When": {
+        "Query: {{DLX.Bundles/DaysSincePurchase:{{ModId}}_IF4BuildOnGingerIsland}} >= 0": true,
+        "HasMod |contains= Sexynes.CP.BuildOnGingerIslandFarm": false,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Community Kitchen Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4CommunityKitchen{{Day}}{{Season}}{{Year}}": {
+          "Location": "Farm",
+          "ShopType": "CCBundle",
+          "BundleDescription": "Build Community Kitchen",
+          "ShopEvent": "none",
+          "ShopPosition": "49, 33",
+          "ShopTexture": "{{ModId}}/IF4BlankBundle",
+          "DrawQuestionMark": true,
+          "QuestionMarkOffset": "24, 32",
+          "PriceSpawnFields": [
+            {
+              "MaxItems": 2,
+              "RandomItemId": [
+                "RANDOM_ITEMS (O) 194 216",
+                "RANDOM_ITEMS (O) 218 244"
+              ]
+            }
+          ],
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4CommunityKitchen"
+          ],
+          "InteractionShake": true,
+          "InstantShopRemoval": true
+        }
+      },
+      "When": {
+        "HasMod |contains= DLX.Bundles": true,
+        "HasMod |contains= MindMeltMax.MapBuildings": true,
+        "RemoveCommunityKitchen": false,
+        "IsUsingIF4Farm": true,
+        "HasFlag |contains= {{ModId}}_IF4CommunityKitchen": false
+      }
+    },
+    {
+      "LogName": "IF4 Community Kitchen Construction",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4CommunityKitchenConstruction.tmx",
+      "ToArea": {
+        "X": 44,
+        "Y": 33,
+        "Width": 11,
+        "Height": 12
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveCommunityKitchen": false,
+        "HasFlag |contains= {{ModId}}_IF4CommunityKitchen": false
+      }
+    },
+    {
+      "LogName": "IF4 Community Kitchen",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4CommunityKitchen.tmx",
+      "ToArea": {
+        "X": 44,
+        "Y": 33,
+        "Width": 11,
+        "Height": 12
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveCommunityKitchen": false,
+        "HasFlag |contains= {{ModId}}_IF4CommunityKitchen": true
+      }
+    },
+    {
+      "LogName": "IF4 Buildable Outdoor Kitchen 1",
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "{{ModId}}_IF4BuildableOutdoorKitchen1": {
+          "Name": "Kitchen",
+          "Texture": "Maps\\townInterior",
+          "SourceRect": {
+            "X": 256,
+            "Y": 228,
+            "Width": 64,
+            "Height": 28
+          },
+          "DrawShadow": false,
+          "CollisionMap": "XXXX",
+          "Size": {
+            "X": 4,
+            "Y": 1
+          },
+          "DefaultAction": "Kitchen",
+          "Builder": null,
+          "FadeWhenBehind": false
+        }
+      },
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Community Kitchen Buildings Included",
+      "Action": "EditData",
+      "Target": "MindMeltMax.MapBuildings/Buildings",
+      "Entries": {
+        "{{ModId}}_IF4CommunityKitchen": [
+          {
+            "Location": "Farm",
+            "X": "47",
+            "Y": "34",
+            "Building": "{{ModID}}_IF4BuildableOutdoorKitchen1"
+          }
+        ]
+      },
+      "When": {
+        "HasMod: |contains= MindMeltMax.MapBuildings": true,
+        "IsUsingIF4Farm": true,
+        "RemoveCommunityKitchen": false,
+        "HasFlag |contains= {{ModId}}_IF4CommunityKitchen": true
+      }
+    },
+    {
+      "LogName": "IF4 Coop Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4Coop": {
+          "Location": "Farm",
+          "ShopType": "CCBundle",
+          "BundleDescription": "Build Coop",
+          "ShopEvent": "none",
+          "ShopPosition": "121, 20",
+          "ShopTexture": "{{ModId}}/IF4BlankBundle",
+          "DrawQuestionMark": true,
+          "QuestionMarkOffset": "24, 32",
+          "Price": {
+            "113": 2
+          },
+          "InteractionShake": true,
+          "InstantShopRemoval": true,
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4Coop"
+          ]
+        }
+      },
+      "When": {
+        "HasMod |contains= DLX.Bundles": true,
+        "HasMod |contains= MindMeltMax.MapBuildings": true,
+        "RemoveCoop": false,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Coop Construction",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4CoopConstruction.tmx",
+      "ToArea": {
+        "X": 119,
+        "Y": 18,
+        "Width": 6,
+        "Height": 3
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveCoop": false,
+        "Query: {{DLX.Bundles/DaysSincePurchase:{{ModId}}_IF4Coop}} >= 0": false
+      }
+    },
+    {
+      "LogName": "IF4 Coop Buildings Included",
+      "Action": "EditData",
+      "Target": "MindMeltMax.MapBuildings/Buildings",
+      "Entries": {
+        "{{ModId}}_IF4Coop": [
+          {
+            "Location": "Farm",
+            "X": "119",
+            "Y": "18",
+            "Building": "Coop"
+          }
+        ]
+      },
+      "When": {
+        "HasMod: |contains= MindMeltMax.MapBuildings": true,
+        "IsUsingIF4Farm": true,
+        "RemoveCoop": false,
+        "Query: {{DLX.Bundles/DaysSincePurchase:{{ModId}}_IF4Coop}} >= 0": true
+      }
+    },
+    {
+      "LogName": "IF4 Barn Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4Barn": {
+          "Location": "Farm",
+          "ShopType": "CCBundle",
+          "BundleDescription": "Build Barn",
+          "ShopEvent": "none",
+          "ShopPosition": "129, 18",
+          "ShopTexture": "{{ModId}}/IF4BlankBundle",
+          "DrawQuestionMark": true,
+          "QuestionMarkOffset": "24, 32",
+          "Price": {
+            "149": 2
+          },
+          "InteractionShake": true,
+          "InstantShopRemoval": true,
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4Barn"
+          ]
+        }
+      },
+      "When": {
+        "HasMod |contains= DLX.Bundles": true,
+        "HasMod |contains= MindMeltMax.MapBuildings": true,
+        "RemoveBarn": false,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Barn Construction",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4BarnConstruction.tmx",
+      "ToArea": {
+        "X": 126,
+        "Y": 15,
+        "Width": 7,
+        "Height": 4
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveBarn": false,
+        "Query: {{DLX.Bundles/DaysSincePurchase:{{ModId}}_IF4Barn}} >= 0": false
+      }
+    },
+    {
+      "LogName": "IF4 Barn Buildings Included",
+      "Action": "EditData",
+      "Target": "MindMeltMax.MapBuildings/Buildings",
+      "Entries": {
+        "{{ModId}}_IF4Coop": [
+          {
+            "Location": "Farm",
+            "X": 126,
+            "Y": 15,
+            "Building": "Barn"
+          }
+        ]
+      },
+      "When": {
+        "HasMod: |contains= MindMeltMax.MapBuildings": true,
+        "IsUsingIF4Farm": true,
+        "RemoveBarn": false,
+        "Query: {{DLX.Bundles/DaysSincePurchase:{{ModId}}_IF4Barn}} >= 0": true
+      }
+    },
+    {
+      "LogName": "IF4 Junimo Hut Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4JunimoHut{{Day}}{{Season}}{{Year}}": {
+          "Location": "Farm",
+          "ShopType": "CCBundle",
+          "BundleDescription": "Revive Junimo Hut",
+          "ShopEvent": "none",
+          "ShopPosition": "28, 112",
+          "ShopTexture": "{{ModId}}/IF4BlankBundle",
+          "DrawQuestionMark": true,
+          "QuestionMarkOffset": "24, 32",
+          "Price": {
+            "768": "{{Query: {{Random: {{Range: 1, 99}}}}}}",
+            "769": "{{Query: {{Random: {{Range: 1, 99}}}}}}"
+          },
+          "InteractionShake": true,
+          "InstantShopRemoval": true,
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4JunimoHut"
+          ]
+        }
+      },
+      "When": {
+        "HasMod |contains= DLX.Bundles": true,
+        "HasMod |contains= MindMeltMax.MapBuildings": true,
+        "RemoveHut": false,
+        "IsUsingIF4Farm": true,
+        "HasFlag |contains= {{ModId}}_IF4JunimoHut": false
+      }
+    },
+    {
+      "LogName": "IF4 Junimo Hut Dilapidated",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4JunimoHutDilapidated.tmx",
+      "ToArea": {
+        "X": 27,
+        "Y": 109,
+        "Width": 3,
+        "Height": 4
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveHut": false,
+        "HasFlag |contains= {{ModId}}_IF4JunimoHut": false
+      }
+    },
+    {
+      "LogName": "IF4 Junimo Hut Buildings Included",
+      "Action": "EditData",
+      "Target": "MindMeltMax.MapBuildings/Buildings",
+      "Entries": {
+        "{{ModId}}_IF4JunimoHut": [
+          {
+            "Location": "Farm",
+            "X": 27,
+            "Y": 111,
+            "Building": "Junimo Hut"
+          }
+        ]
+      },
+      "When": {
+        "HasMod: |contains= MindMeltMax.MapBuildings": true,
+        "IsUsingIF4Farm": true,
+        "RemoveHut": false,
+        "HasFlag |contains= {{ModId}}_IF4JunimoHut": true
+      }
+    },
+    {
+      "LogName": "IF4 Alex's Ice Cream Stand Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4AlexsIceCreamStand": {
+          "Location": "Farm",
+          "ShopType": "CCBundle",
+          "BundleDescription": "Build Ice Cream Stand",
+          "ShopEvent": "none",
+          "ShopPosition": "70, 129",
+          "ShopTexture": "{{ModId}}/IF4BlankBundle",
+          "DrawQuestionMark": true,
+          "QuestionMarkOffset": "24, 32",
+          "Price": {
+            "84": 40
+          },
+          "InteractionShake": true,
+          "InstantShopRemoval": true,
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4AlexsIceCreamStand"
+          ]
+        }
+      },
+      "When": {
+        "HasMod |contains= DLX.Bundles": true,
+        "HasMod |contains= MindMeltMax.MapBuildings": true,
+        "RemoveStand": false,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Alex's Ice Cream Stand Construction",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4AlexsIceCreamStandConstruction.tmx",
+      "ToArea": {
+        "X": 68,
+        "Y": 126,
+        "Width": 4,
+        "Height": 4
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveStand": false,
+        "Query: {{DLX.Bundles/DaysSincePurchase:{{ModId}}_IF4AlexsIceCreamStand}} >= 0": false
+      }
+    },
+    {
+      "LogName": "IF4 Alex's Ice Cream Stand Building",
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "{{ModId}}_IF4AlexsIceCreamStand": {
+          "Name": "Alex's Ice Cream Stand",
+          "Texture": "Maps\\{{season}}_town",
+          "DrawShadow": false,
+          "SortTileOffset": 0,
+          "CollisionMap": "XXOX\nXXOX\nXXXX",
+          "Size": {
+            "X": 4,
+            "Y": 3
+          },
+          "SourceRect": {
+            "X": 432,
+            "Y": 560,
+            "Width": 64,
+            "Height": 80
+          },
+          "DrawLayers": null,
+          "ActionTiles": [
+            {
+              "Id": "{{ModId}}_IF4AlexsIceCreamStand",
+              "Tile": {
+                "X": 2,
+                "Y": 2
+              },
+              "Action": "OpenShop IceCreamStand down"
+            }
+          ],
+          "Builder": null,
+          "MagicalConstruction": false,
+          "FadeWhenBehind": false
+        }
+      },
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Alex's Ice Cream Stand Buildings Included",
+      "Action": "EditData",
+      "Target": "MindMeltMax.MapBuildings/Buildings",
+      "Entries": {
+        "{{ModId}}_IF4AlexsIceCreamStand": [
+          {
+            "Location": "Farm",
+            "X": 68,
+            "Y": 127,
+            "Building": "{{ModId}}_IF4AlexsIceCreamStand"
+          }
+        ]
+      },
+      "When": {
+        "HasMod: |contains= MindMeltMax.MapBuildings": true,
+        "IsUsingIF4Farm": true,
+        "RemoveStand": false,
+        "Query: {{DLX.Bundles/DaysSincePurchase:{{ModId}}_IF4AlexsIceCreamStand}} >= 0": true
+      }
+    },
+    {
+      "LogName": "IF4 Boat Umbrella Texture Load",
+      "Action": "Load",
+      "Target": "{{ModId}}/IF4BoatUmbrella",
+      "FromFile": "assets/BoatUmbrella.png"
+    },
+    {
+      "LogName": "IF4 Boat Umbrella",
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "{{ModId}}_BoatUmbrella": {
+          "Name": "Boat Umbrella",
+          "Description": "Umbrella for a boat.",
+          "Texture": "{{ModId}}/IF4BoatUmbrella",
+          "SourceRect": {
+            "X": 48,
+            "Y": 0,
+            "Width": 48,
+            "Height": 80
+          },
+          "DrawShadow": false,
+          "Size": {
+            "X": 3,
+            "Y": 2
+          },
+          "CollisionMap": "OXO\nOOO",
+          "SortTileOffset": 2.5,
+          "BuildingType": "StardewValley.Buildings.Stable",
+          "Builder": null,
+          "BuildCost": 0,
+          "BuildMaterials": null,
+          "MagicalConstruction": true
+        }
+      },
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Boat Texture Load",
+      "Action": "Load",
+      "Target": "{{ModId}}/IF4Boat",
+      "FromFile": "assets/BoatSprite.png"
+    },
+    {
+      "LogName": "IF4 Boat Custom Mount Dictionary",
+      "Action": "EditData",
+      "Target": "aedenthorn.CustomMounts/dict",
+      "Entries": {
+        "{{ModId}}/IF4Boat": {
+          "Name": "Boat",
+          "Stable": "Boat Umbrella",
+          "SpawnOffset": {
+            "X": 2,
+            "Y": 1
+          },
+          "Speed": 2,
+          "TexturePath": "{{ModId}}/IF4Boat",
+          "FootstepSound": "slosh"
+        }
+      },
+      "When": {
+        "HasMod: |contains= aedenthorn.CustomMounts": true,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Boat Umbrella Map Patch",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4BoatUmbrella.tmx",
+      "ToArea": {
+        "X": 77,
+        "Y": 130,
+        "Width": 3,
+        "Height": 5
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveBeachUmbrella": false,
+        "HasFlag |contains= {{ModId}}_IF4BoatUmbrella": false
+      }
+    },
+    {
+      "LogName": "IF4 Boat Umbrella Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4BoatUmbrella{{Day}}{{Season}}{{Year}}": {
+          "Location": "Farm",
+          "ShopType": "SpeechBubble",
+          "BundleDescription": "May I have this item?",
+          "ShopColor": "rgb({{Query: {{Random: {{Range: 0, 255}}|key=BoatUmbrellaR}}}}, {{Query: {{Random: {{Range: 0, 255}}|key=BoatUmbrellaG}}}}, {{Query: {{Random: {{Range: 0, 255}}|key=BoatUmbrellaB}}}})",
+          "ShopEvent": "None",
+          "ShopPosition": "78, 135",
+          "Price": {
+            "709": "{{Query: {{Random: {{Range: 50, 100}}}}}}"
+          },
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4BoatUmbrella"
+          ],
+          "InstantShopRemoval": false
+        }
+      },
+      "When": {
+        "HasMod |contains= aedenthorn.CustomMounts": true,
+        "HasMod |contains= DLX.Bundles": true,
+        "HasMod |contains= MindMeltMax.MapBuildings": true,
+        "RemoveBeachUmbrella": false,
+        "IsUsingIF4Farm": true,
+        "HasFlag |contains= {{ModId}}_IF4BoatUmbrella": false
+      }
+    },
+    {
+      "LogName": "IF4 Boat Umbrella Buildings Included",
+      "Action": "EditData",
+      "Target": "MindMeltMax.MapBuildings/Buildings",
+      "Entries": {
+        "{{ModId}}_IF4BoatUmbrella": [
+          {
+            "Location": "Farm",
+            "X": 77,
+            "Y": 133,
+            "Building": "{{ModId}}_BoatUmbrella"
+          }
+        ]
+      },
+      "When": {
+        "HasMod: |contains= MindMeltMax.MapBuildings": true,
+        "IsUsingIF4Farm": true,
+        "RemoveBeachUmbrella": false,
+        "HasFlag |contains= {{ModId}}_IF4BoatUmbrella": true
+      }
+    },
+    {
+      "LogName": "SVE Grandpa's Shed Outside Warp",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_GrandpasShedOutside",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 16,
+            "Y": 29
+          },
+          "Layer": "Buildings",
+          "Remove": true
+        },
+        {
+          "Position": {
+            "X": 16,
+            "Y": 29
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp Farm 155 14"
+          }
+        },
+        {
+          "Position": {
+            "X": 17,
+            "Y": 29
+          },
+          "Layer": "Buildings",
+          "Remove": true
+        },
+        {
+          "Position": {
+            "X": 17,
+            "Y": 29
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp Farm 155 14"
+          }
+        }
+      ],
+      "When": {
+        "HasMod |contains= FlashShifter.StardewValleyExpandedCP": true,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 SVE Grandpa's Shed Outside Warp Reverse",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 155,
+            "Y": 13
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp Custom_GrandpasShedOutside 16 28"
+          }
+        },
+        {
+          "Position": {
+            "X": 156,
+            "Y": 13
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp Custom_GrandpasShedOutside 17 28"
+          }
+        }
+      ],
+      "When": {
+        "HasMod |contains= FlashShifter.StardewValleyExpandedCP": true,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 SVE Grandpa's Shed Outside Warp Off",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 155,
+            "Y": 13
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp Farm 169 110"
+          }
+        },
+        {
+          "Position": {
+            "X": 156,
+            "Y": 13
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp Farm 169 110"
+          }
+        }
+      ],
+      "When": {
+        "HasMod |contains= FlashShifter.StardewValleyExpandedCP": false,
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Grill",
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "{{ModId}}_Grill": {
+          "Name": "Grill",
+          "Description": "Grill for a beach BBQ.",
+          "Texture": "Maps\\Festivals",
+          "SourceRect": {
+            "X": 240,
+            "Y": 48,
+            "Width": 32,
+            "Height": 48
+          },
+          "DrawShadow": false,
+          "Size": {
+            "X": 2,
+            "Y": 2
+          },
+          "CollisionMap": "XX\nXX",
+          "DefaultAction": "Kitchen",
+          "Builder": null,
+          "MagicalConstruction": true
+        }
+      },
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    },
+    {
+      "LogName": "IF4 Grill Buildings Included",
+      "Action": "EditData",
+      "Target": "MindMeltMax.MapBuildings/Buildings",
+      "Entries": {
+        "{{ModId}}_IF4Grill": [
+          {
+            "Location": "Farm",
+            "X": 75,
+            "Y": 132,
+            "Building": "{{ModId}}_Grill"
+          }
+        ]
+      },
+      "When": {
+        "HasMod: |contains= MindMeltMax.MapBuildings": true,
+        "IsUsingIF4Farm": true,
+        "RemoveBeachGrill": false,
+        "HasFlag |contains= {{ModId}}_IF4BeachGrill": true
+      }
+    },
+    {
+      "LogName": "IF4 Beach Grill Map Patch",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4GrillConstruction.tmx",
+      "ToArea": {
+        "X": 75,
+        "Y": 132,
+        "Width": 2,
+        "Height": 2
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveBeachGrill": false,
+        "HasFlag |contains= {{ModId}}_IF4BeachGrill": false
+      }
+    },
+    {
+      "LogName": "IF4 Beach Grill Unlockable Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4BoatUmbrella{{Day}}{{Season}}{{Year}}": {
+          "Location": "Farm",
+          "ShopType": "CCBundle",
+          "BundleDescription": "Build grill.",
+          "ShopTexture": "{{ModId}}/IF4BlankBundle",
+          "DrawQuestionMark": true,
+          "QuestionMarkOffset": "24, 32",
+          "ShopEvent": "None",
+          "ShopPosition": "75, 133",
+          "Price": {
+            "241": "{{Query: {{Random: {{Range: 5, 15}}}}}}"
+          },
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4BeachGrill"
+          ],
+          "InstantShopRemoval": false
+        }
+      },
+      "When": {
+        "HasMod |contains= DLX.Bundles": true,
+        "HasMod |contains= MindMeltMax.MapBuildings": true,
+        "RemoveBeachUmbrella": false,
+        "IsUsingIF4Farm": true,
+        "HasFlag |contains= {{ModId}}_IF4BeachGrill": false
+      }
+    },
+    {
+      "LogName": "IF4 Fence West Map Patch",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "FromFile": "assets/IF4FenceWest.tmx",
+      "ToArea": {
+        "X": 29,
+        "Y": 19,
+        "Width": 9,
+        "Height": 11
+      },
+      "PatchMode": "Overlay",
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveFenceWest": false
+      }
+    },
+    {
+      "LogName": "IF4 Backyard Door Warp",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 66,
+            "Y": 4
+          },
+          "Layer": "Buildings1",
+          "SetTilesheet": "Landscape",
+          "SetIndex": 142
+        },
+        {
+          "Position": {
+            "X": 66,
+            "Y": 5
+          },
+          "Layer": "Buildings1",
+          "SetTilesheet": "Landscape",
+          "SetIndex": 167
+        },
+        {
+          "Position": {
+            "X": 130,
+            "Y": 113
+          },
+          "Layer": "Buildings1",
+          "SetTilesheet": "Landscape",
+          "SetIndex": 142
+        },
+        {
+          "Position": {
+            "X": 130,
+            "Y": 114
+          },
+          "Layer": "Buildings1",
+          "SetTilesheet": "Landscape",
+          "SetIndex": 167
+        },
+        {
+          "Position": {
+            "X": 66,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp Farm 130 115"
+          }
+        },
+        {
+          "Position": {
+            "X": 130,
+            "Y": 115
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "Warp Farm 66 6"
+          }
+        }
+      ],
+      "When": {
+        "IsUsingIF4Farm": true,
+        "RemoveBackyardDoor": false
+      }
+    },
+    {
+      "LogName": "IF4 Casks Refine On Farm Bundle",
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "Entries": {
+        "{{ModId}}_IF4CasksRefineOnFarm{{Season}}{{Year}}": {
+          "Location": "Farm",
+          "ShopType": "CCBundle",
+          "BundleDescription": "Allow casks to refine products on farm.",
+          "ShopEvent": "none",
+          "ShopPosition": "122, 76",
+          "ShopTexture": "{{ModId}}/IF4BlankBundle",
+          "DrawQuestionMark": true,
+          "QuestionMarkOffset": "24, 0",
+          "Price": {
+            "(UB.Flavored)Wine.(O){{Random: 88, 90, 91, 252, 254, 258, 260, 268, 282, 296, 396, 398, 400, 406, 410, 414, 613, 634, 635, 636, 637, 638, 834, 889, Powdermelon}}:{{Random: 0, 1, 2, 3}}": 1
+          },
+          "BundleCompletedActions": [
+            "AddMail All {{ModId}}_IF4CasksRefineOnFarm"
+          ],
+          "InteractionShake": true,
+          "InstantShopRemoval": true
+        }
+      },
+      "When": {
+        "HasMod |contains= DLX.Bundles": true,
+        "IsUsingIF4Farm": true,
+        "HasFlag |contains= {{ModId}}_IF4CasksRefineOnFarm": false
+      }
+    },
+    {
+      "LogName": "IF4 Casks Refine On Farm Map Property",
+      "Action": "EditMap",
+      "Target": "Maps/Sexynes_IF4, Maps/Farm_Island",
+      "MapProperties": {
+        "CanCaskHere": "T"
+      },
+      "When": {
+        "IsUsingIF4Farm": true,
+        "HasFlag |contains= {{ModId}}_IF4CasksRefineOnFarm": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "BusStop.1": "@ { Farm^` Bus Stop^> Pelican Town",
+        "FarmMod.1": "` Mountain",
+        "FarmMod.2": "@ Hills^@ Woods",
+        "FarmMod.3": "{ Forest^@ Spa^> Quarry",
+        "FarmMod.4": "{ Woods^> Farm",
+        "FarmMod.5": "` Bus Stop",
+        "FarmMod.6": "Yuck!",
+        "FarmCave.1": "Shrine",
+        "FarmCave.2": "East Hill",
+        "FarmCave.3": "Western Hills",
+        "FarmCave.4": "West Cave",
+        "FarmCave.5": "South Beach"
+      },
+      "When": {
+        "IsUsingIF4Farm": true
+      }
+    }
+  ]
+}

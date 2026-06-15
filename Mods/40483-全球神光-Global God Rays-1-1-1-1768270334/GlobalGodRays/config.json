@@ -1,0 +1,12 @@
+{
+  "ToggleLocationKey": "None",
+  "ToggleWeatherKey": "None",
+  "EnableGodRays": true,
+  "RayScale": 0.3,
+  "RayIntensity": 2.0,
+  "RayAnimationSpeed": 10.0,
+  "RayOpacityModifier": 1.0,
+  "FadeUnderClouds": true,
+  "OnlyWhenSunny": true,
+  "WeatherSpecificConfigs": {}
+}

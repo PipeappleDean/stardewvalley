@@ -1,0 +1,121 @@
+{
+  "DisableToolDeliveryService": false,
+  "DisableToolShipmentService": false,
+  "ToolShipmentServiceFee": 0,
+  "ToolShipmentServicePercentFee": 0,
+  "DisableQuestService": false,
+  "QuestServiceFee": 0,
+  "DisableGiftService": false,
+  "MinimumFriendshipPointsToSendGift": 0,
+  "GiftServiceFee": 0,
+  "GiftServicePercentFee": 0,
+  "GiftChoicePageSize": 5,
+  "EnableJealousyFromMailedGifts": false,
+  "EnableGiftToNpcWithMaxFriendship": false,
+  "ShowDialogOnItemDelivery": false,
+  "DisablePerPlayerConfig": false,
+  "EnableAskToUpgradeTool": false,
+  "PlayerRecoveryConfig": {
+    "122527602049229717": {
+      "PlayerName": "布布",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": true,
+      "RecoverAllItems": true,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "-5814261934131592638": {
+      "PlayerName": "布布",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": true,
+      "RecoverAllItems": true,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "-2320781408528439160": {
+      "PlayerName": "车厘子",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "-4702477504870915383": {
+      "PlayerName": "",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": true,
+      "RecoverAllItems": true,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "-3548346881192637218": {
+      "PlayerName": "12",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "-5760968145924510266": {
+      "PlayerName": "123",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "7619255015121494128": {
+      "PlayerName": "",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": true,
+      "RecoverAllItems": true,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "-4307647548714902140": {
+      "PlayerName": "112",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "1484685309942575613": {
+      "PlayerName": "布布",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "7532998434330392416": {
+      "PlayerName": "",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "286735456387567529": {
+      "PlayerName": "樱桃",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "-799426719067536330": {
+      "PlayerName": "珞珈",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    }
+  },
+  "DisableRecoveryConfigInGameChanges": false,
+  "EnableRecoveryService": false,
+  "RecoverAllItems": false,
+  "RecoverForFree": false,
+  "DisableClearLostItemsOnRandomRecovery": false
+}
